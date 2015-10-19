@@ -19,31 +19,31 @@ boolean rightPressed = false;
 
 void setup () {
     size(640,480) ;  // must use this size.
-    start1 = loadImage("start1.png");
-    start2 = loadImage("start2.png");
-    end1 = loadImage("end1.png");
-    end2 = loadImage("end2.png");
+    start1 = loadImage("img/start1.png");
+    start2 = loadImage("img/start2.png");
+    end1 = loadImage("img/end1.png");
+    end2 = loadImage("img/end2.png");
     
     
     shipx = width-50;
     shipy = height/2;
-    fighter = loadImage("fighter.png");
+    fighter = loadImage("img/fighter.png");
     a = random(430);
     
-    hp = loadImage("hp.png");
+    hp = loadImage("img/hp.png");
     hpy = 40;
     fill(255,0,0);
     noStroke();
   
-    treasure = loadImage("treasure.png");
+    treasure = loadImage("img/treasure.png");
     tx = random(600);
     ty = random(440);
     
     enemyy = random(415);
-    enemy = loadImage("enemy.png");
+    enemy = loadImage("img/enemy.png");
     
-    bg1 = loadImage("bg1.png");
-    bg2 = loadImage("bg2.png");
+    bg1 = loadImage("img/bg1.png");
+    bg2 = loadImage("img/bg2.png");
     gameState = GAME_START;
     //image (start1,0,0);
 }
